@@ -1,0 +1,49 @@
+Set10 Class 1
+
+• CLASS OBJECTIVES
+1. Introduction to Typescript 
+2. Installations
+3. Class Definition 
+4. Examples
+5. Prompt-Sync
+
+TYPESCRIPT INSTALLATIONS OVERVIEW.
+
+1. Create a folder Named SET10TYPESCRIPT
+
+2. Open your terminal and press npm init --y which creates a package.json file for you.
+
+3. Next press npm i -g typescript to install typescript globally
+
+4. Next press npm i ts-node-dev to install typescript code watcher just like nodemon does for JS.
+
+5. Next Create a file inside your SET10TYPESCRIPT Folder called tsconfig.json and paste this code inside check number 6 for the code.
+
+6. {
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
+7. After pasting it, go back into your package.json file and add this line of code. It should be under the test o, Just like you did for your javascript.
+
+ "dev": "ts-node-dev --respawn --transpile-only Index.ts"
+
+ 8. Create a file in your SET10TYPESCRIPT called Index.ts and console.log "Hello Word"
+
+ 9. Run npm run dev on your terminal. If you see your console.log, Congratulations you are ready for typescript!!
+
+
+
+
+
+*ASSIGNMENT*
+
