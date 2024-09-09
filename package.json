@@ -4,13 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only ./Dwayne/Index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./Dwayne/Math.Random.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "prompt-sync": "^4.2.0",
     "ts-node-dev": "^2.0.0"
   }
 }
