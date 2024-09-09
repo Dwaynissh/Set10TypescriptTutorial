@@ -3,11 +3,11 @@ Set10 Class 1
 • CLASS OBJECTIVES
 1. Introduction to Typescript 
 2. Installations
-3. Class Definition 
-4. Examples
-5. Prompt-Sync
+3. Definition Of Typescript
+4. Advantages of Typescript
+5. Syntaxes - Primitive Datatypes, Non-Primitive Datatypes and Nested Primitive/NonPrimitive Datatypes etc array of objects, objects of arrays, arrays of string etc.
 
-TYPESCRIPT INSTALLATIONS OVERVIEW.
+TYPESCRIPT INSTALLATIONS.
 
 1. Create a folder Named SET10TYPESCRIPT
 
@@ -42,8 +42,29 @@ TYPESCRIPT INSTALLATIONS OVERVIEW.
  9. Run npm run dev on your terminal. If you see your console.log, Congratulations you are ready for typescript!!
 
 
+TYPESCRIPT INTRODUCTION OVERVIEW.
 
+Memory updated
+Set10 Class 1: Introduction to TypeScript
+CLASS OBJECTIVES
+Introduction to TypeScript
+Definition of TypeScript
+Advantages of TypeScript
+Syntax: Primitive & Non-Primitive Datatypes, and Complex Data Structures (Array of Objects, Objects of Arrays, Arrays of Strings, etc.)
+1. Introduction to TypeScript
+TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript that adds static typing to the language. TypeScript is designed for large-scale applications and transcompiles to JavaScript.
 
+2. Definition of TypeScript
+TypeScript can be thought of as JavaScript with additional features like types, classes, and interfaces. It enhances the development process by catching errors early during the compile time rather than during runtime, which is common with JavaScript.
+
+How TypeScript Works: TypeScript code is written in .ts files and then compiled into plain JavaScript using a TypeScript compiler (tsc), making it executable in any JavaScript runtime environment, such as Node.js or browsers.
+
+3. Advantages of TypeScript
+Static Typing: TypeScript allows you to define types for your variables and functions, reducing the chances of type-related errors.
+Enhanced Code Readability: With types explicitly defined, the code becomes easier to understand and maintain.
+Intelligent Code Completion: TypeScript offers powerful tooling like IntelliSense, which provides auto-completion and documentation directly in your code editor.
+Early Error Detection: TypeScript catches errors at compile-time, which helps in reducing runtime bugs.
+Supports Modern JavaScript Features: TypeScript supports modern JavaScript (ESNext) features while still being backward-compatible with older JavaScript versions.
 
 *ASSIGNMENT*
 
