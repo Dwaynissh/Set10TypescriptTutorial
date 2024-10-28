@@ -9,7 +9,7 @@ Set10 Class 1
 
 TYPESCRIPT INSTALLATIONS.
 
-1. Create a folder Named SET10TYPESCRIPT
+1. Create a folder Named SET10NODETYPESCRIPT
 
 2. Open your terminal and press npm init --y which creates a package.json file for you.
 
